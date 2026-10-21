@@ -1,0 +1,19 @@
+{
+  "name": "shopeasy-lite",
+  "version": "1.0.0",
+  "description": "A tiny shop application used in the Unit C CI/CD practicals",
+  "main": "server.js",
+  "files": [
+    "server.js",
+    "src/"
+  ],
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test --test-reporter=spec",
+    "lint": "node --check server.js && node --check src/cart.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
