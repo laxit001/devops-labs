@@ -17,7 +17,11 @@ function escapeHtml(value) {
 function homePage() {
   return `<!doctype html>
 <html lang="en">
+<<<<<<< HEAD
 <head><meta charset="utf-8"><title> Version from main ShopEasy Lite 222222</title>
+=======
+<head><meta charset="utf-8"><title> Version from conflict-demo ShopEasy Lite 222222</title>
+>>>>>>> conflict-demo
 <style>
   body { font-family: system-ui, sans-serif; margin: 0; min-height: 100vh; display: grid; place-items: center;
          background: ${escapeHtml(APP_COLOR)}; color: #fff; }
